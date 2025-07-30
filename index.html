@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Embedded Menu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .menu-container {
+      width: 1000px;
+      height: 175px;
+      background-color: #1a1a1a;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+
+    .menu-item {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    .menu-item:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <a href="#home" class="menu-item">Home</a>
+    <a href="#portfolio" class="menu-item">Portfolio</a>
+    <a href="#about" class="menu-item">About</a>
+    <a href="#contact" class="menu-item">Contact</a>
+  </div>
+</body>
+</html>
